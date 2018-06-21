@@ -29,7 +29,7 @@ class String
   def count_sentences
 
     def count_sentences
-      def count_sentences_words
+      def count_sentences
     self.split(/[.!?]/).map{|x| !(x.match(/\w+/).nil?)}.reject{|x| x == false}.size 
     end
 end
